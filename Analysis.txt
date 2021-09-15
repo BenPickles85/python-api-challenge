@@ -1,0 +1,18 @@
+1) With both r values around 0.6, there is a moderately strong correlation between temperature and latitude in both hemishperes. 
+Although there does appear to be a greater range in temperatures between -25 and -10 degrees latitude, futher analysis would be
+required to confirm if this is in fact the case. From running multiple versions, this has not always been the case so 
+I am wary of reading to much into this. Although it is apparent that temperatures at the poles are on avergae cooler than at the
+equator, other factors such as altitude and proximity to the ocean also have an impact and limit the latitude/temperature 
+relationship from being stronger. 
+
+2) With r values under 0.01 there is no correltaion between humidity and latitude. However, it is apparent that for latitudes
+under -40 and above 55 degrees, there are no humidities under 40%. This could make sense as cold air has a lesser aility to 
+retain mositure. To investigate this I ran temp vs humidity and although there was more of a correlation, particularly
+in the northern hemisphere which had an r value = 0.2, any relationship is still a very weak relationship. 
+
+3) With r values = 0.05 or under, their does not appear to be a cvorrelation between cloudiness and latitude. However, what is
+observale, particularly for the northern hemisphere plot, is a tendency for either no cloud or full cloud,rather than all data
+points beng evenly dispersed. For cities with no cloud, these appear to mostly be situated between latitudes between -20 and
+-40 and 25 and 50 degrees. My thoughts on this are that the greater landmasses are situated between these ranges of latitude
+with more inland areas which would be less prone to cloudiness. However, again, further analysis would be required to confirm
+this hypothesis. 
